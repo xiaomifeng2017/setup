@@ -11,14 +11,14 @@ cd ~
 
 if [ ! -d "./KindleEar" ]
 then
-    git clone https://github.com/kindlerss/KindleEar-master
+    git clone https://github.com/kindlerss/kindrssserup
 else
     response='y'
     read -r -p '已存在 KindleEar 源码，是否更新？[y/N]' response
     if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]
     then
         # rm -rf ./KindleEar
-        # git clone https://github.com/kindlerss/KindleEar-master
+        # git clone https://github.com/kindlerss/kindrssserup
         cd ./KindleEar
         git pull ./KindleEar
         cd ..
