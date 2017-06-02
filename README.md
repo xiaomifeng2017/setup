@@ -4,15 +4,11 @@
 
 ```
 rm -f uploader.sh* && \
-wget https://raw.githubusercontent.com/kindlefere/KindleEar-Uploader/master/uploader.sh && \
+wget https://raw.githubusercontent.com/xiaomifeng2017/setup/master/uploader.sh && \
 chmod +x uploader.sh && \
 ./uploader.sh
 ```
 
 KindleEar 上传教程：https://kindlefere.com/post/19.html  
 KindleEar 项目地址：https://github.com/cdhigh/KindleEar
-
----
-
-Kindle 伴侣 - 为静心阅读而生  
-http://kindlefere.com
+原文地址：https://github.com/kindlefere/KindleEar-Uploader
