@@ -18,7 +18,7 @@ else
     if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]
     then
         # rm -rf ./KindleEar
-        # git clone https://github.com/cdhigh/KindleEar.git
+        # git clone https://github.com/kindlerss/kindrssserup
         cd ./KindleEar
         git pull ./KindleEar
         cd ..
